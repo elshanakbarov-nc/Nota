@@ -1,0 +1,8 @@
+[25-May-2018 20:59:11 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\Nota\public\index.php(92): Core\Router->dispatch('signup')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Router.php' on line 123
+[25-May-2018 21:19:37 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\Nota\public\index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Router.php' on line 123

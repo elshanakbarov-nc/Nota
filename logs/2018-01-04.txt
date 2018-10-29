@@ -1,0 +1,33 @@
+[04-Jan-2018 17:31:36 Europe/Berlin] Uncaught exception: 'Error'With message 'Class 'App\Controllers\User' not found'
+Stack Trace: #0 [internal function]: App\Controllers\Signup->createAction()
+#1 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#3 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Controllers\Signup.php' on line 29
+[04-Jan-2018 17:35:50 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Signup not found'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/new')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 89
+[04-Jan-2018 17:35:52 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Signup not found'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/new')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 89
+
+[04-Jan-2018 17:40:50 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$password'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(43): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 43
+[04-Jan-2018 18:03:46 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Admin\Users not found'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Admin/Users/ind...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 89
+[04-Jan-2018 18:03:47 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Posts not found'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Posts/index')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 89

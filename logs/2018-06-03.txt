@@ -1,0 +1,206 @@
+[03-Jun-2018 15:57:26 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\Nota\public\index.php(96): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Router.php' on line 123
+[03-Jun-2018 15:57:29 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\Nota\public\index.php(96): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Router.php' on line 123
+[03-Jun-2018 16:40:02 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 16:40:02 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[03-Jun-2018 16:46:10 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 16:56:20 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:04:11 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:06:08 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:06:11 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:06:24 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:06:27 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:07:08 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:07:10 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(96): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:50:45 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:51:03 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:52:25 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:52:27 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:52:28 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[03-Jun-2018 17:52:31 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:52:35 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:52:37 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:53:10 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62
+[03-Jun-2018 17:53:14 Asia/Baku] Uncaught exception: 'PDOException'With message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/Core/Model.php(62): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /var/www/u0491408/public_html/egov.edu.az/App/Admin/Models/Partner.php(86): Core\Model::getDB()
+#2 /var/www/u0491408/public_html/egov.edu.az/App/Controllers/Home.php(30): App\Admin\Models\Partner::findAll()
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 /var/www/u0491408/public_html/egov.edu.az/Core/Controller.php(49): call_user_func_array(Array, Array)
+#5 /var/www/u0491408/public_html/egov.edu.az/Core/Router.php(111): Core\Controller->__call('index', Array)
+#6 /var/www/u0491408/public_html/egov.edu.az/public/index.php(97): Core\Router->dispatch('')
+#7 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Model.php' on line 62

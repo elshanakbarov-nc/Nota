@@ -1,0 +1,48 @@
+[05-Jan-2018 19:05:36 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93
+[05-Jan-2018 19:05:38 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93
+[05-Jan-2018 19:09:51 Europe/Berlin] Uncaught exception: 'PDOException'With message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'eakberov14@gmail.com' for key 'email''
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 54
+[05-Jan-2018 19:10:10 Europe/Berlin] Uncaught exception: 'PDOException'With message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'awdawd@aawd.com' for key 'email''
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 54
+[05-Jan-2018 19:12:06 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$password'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(42): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 42
+[05-Jan-2018 19:12:21 Europe/Berlin] Uncaught exception: 'PDOException'With message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'eakberoawdawdawdawdav14@gmail.com' for key 'email''
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(54): PDOStatement->execute()
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 54
+[05-Jan-2018 19:12:28 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('phpprog')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93

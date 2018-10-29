@@ -1,0 +1,14 @@
+[02-Jan-2018 09:59:19 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('awdawd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+
+[02-Jan-2018 10:20:33 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('Admin/Users/ind...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+
+[02-Jan-2018 10:20:53 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('Admin/Users/ind...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93

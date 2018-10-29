@@ -1,0 +1,72 @@
+[06-Jan-2018 16:58:01 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93
+[06-Jan-2018 16:58:08 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93
+[06-Jan-2018 16:58:09 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc\Core\Router.php' on line 93
+[06-Jan-2018 17:44:04 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$password'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(42): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 42
+[06-Jan-2018 17:44:06 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$password'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(42): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 42
+[06-Jan-2018 18:14:35 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$save'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Controllers\Signup.php' on line 31
+[06-Jan-2018 18:14:43 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$save'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Controllers\Signup.php' on line 31
+[06-Jan-2018 18:15:15 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined property: App\Models\User::$save'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Controllers\Signup.php' on line 31
+[06-Jan-2018 18:15:38 Europe/Berlin] Uncaught exception: 'Error'With message 'Call to undefined function App\Models\filters_var()'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(50): App\Models\User->validate()
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 82
+[06-Jan-2018 18:15:42 Europe/Berlin] Uncaught exception: 'Error'With message 'Call to undefined function App\Models\filters_var()'
+Stack Trace: #0 C:\xampp\htdocs\mvc\App\Models\User.php(50): App\Models\User->validate()
+#1 C:\xampp\htdocs\mvc\App\Controllers\Signup.php(31): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\mvc\Core\Controller.php(25): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\mvc\Core\Router.php(81): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\mvc\public\index.php(43): Core\Router->dispatch('Signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\mvc\App\Models\User.php' on line 82

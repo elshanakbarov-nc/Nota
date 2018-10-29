@@ -1,0 +1,36 @@
+[01-Jan-2018 13:44:20 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 13:44:21 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 14:07:26 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 14:07:27 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 14:07:36 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Products not found'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('products/awdawd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 89
+[01-Jan-2018 14:07:48 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Products not found'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('products/Aadwaw...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 89
+[01-Jan-2018 14:07:59 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('pawdawdawd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 14:13:43 Europe/Berlin] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('pawdawdawd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 93
+[01-Jan-2018 14:13:48 Europe/Berlin] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Pawdawdawd not found'
+Stack Trace: #0 C:\xampp\htdocs\phpprog\public\index.php(43): Core\Router->dispatch('pawdawdawd/awda...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\phpprog\Core\Router.php' on line 89

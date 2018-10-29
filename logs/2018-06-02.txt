@@ -1,0 +1,88 @@
+[02-Jun-2018 02:38:56 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 04:53:09 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 08:44:02 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('about/imisli/ph...')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 09:05:07 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 10:47:30 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 13:03:16 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 14:39:37 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('announce/js/plu...')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 17:05:39 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 17:22:06 Asia/Baku] Uncaught exception: 'Exception'With message 'Controller class App\Controllers\Instructor not found'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('instructor/phot...')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 119
+[02-Jun-2018 18:40:07 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 18:58:17 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('about/goycay/ph...')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 19:27:08 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 20:14:52 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 20:38:11 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 21:01:28 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 21:24:22 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 21:47:57 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 22:01:28 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 22:35:35 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 22:56:00 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('about.html')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 22:56:11 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('courses/sebeke-...')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123
+[02-Jun-2018 22:57:40 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 /var/www/u0491408/public_html/egov.edu.az/public/index.php(92): Core\Router->dispatch('course/js/main....')
+#1 {main}
+Thrown in '/var/www/u0491408/public_html/egov.edu.az/Core/Router.php' on line 123

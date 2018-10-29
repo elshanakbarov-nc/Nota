@@ -1,0 +1,4 @@
+[29-May-2018 23:55:09 Asia/Baku] Uncaught exception: 'Exception'With message 'No route matched.'
+Stack Trace: #0 C:\xampp\htdocs\Nota\public\index.php(92): Core\Router->dispatch('robots.txt')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Router.php' on line 123

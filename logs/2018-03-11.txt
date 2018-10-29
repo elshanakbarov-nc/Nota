@@ -1,0 +1,27 @@
+[11-Mar-2018 14:11:11 Europe/Berlin] Uncaught exception: 'ErrorException'With message 'Undefined index: email'
+Stack Trace: #0 C:\xampp\htdocs\Nota\App\Controllers\Login.php(33): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\xampp\htdocs\Nota\Core\Controller.php(49): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Nota\Core\Router.php(111): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\Nota\public\index.php(58): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\Nota\App\Controllers\Login.php' on line 33
+[11-Mar-2018 14:11:18 Europe/Berlin] Uncaught exception: 'Exception'With message 'Method loginAction not found in controller: App\Controllers\Login'
+Stack Trace: #0 C:\xampp\htdocs\Nota\Core\Router.php(111): Core\Controller->__call('login', Array)
+#1 C:\xampp\htdocs\Nota\public\index.php(58): Core\Router->dispatch('login/login')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Nota\Core\Controller.php' on line 56
+[11-Mar-2018 14:32:05 Europe/Berlin] Uncaught exception: 'Error'With message 'Class 'App\Controllers\View' not found'
+Stack Trace: #0 [internal function]: App\Controllers\News->indexAction()
+#1 C:\xampp\htdocs\Nota\Core\Controller.php(49): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Nota\Core\Router.php(111): Core\Controller->__call('index', Array)
+#3 C:\xampp\htdocs\Nota\public\index.php(59): Core\Router->dispatch('News')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\Nota\App\Controllers\News.php' on line 24
+[11-Mar-2018 14:32:34 Europe/Berlin] Uncaught exception: 'Error'With message 'Class 'App\Controllers\View' not found'
+Stack Trace: #0 [internal function]: App\Controllers\News->indexAction()
+#1 C:\xampp\htdocs\Nota\Core\Controller.php(49): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Nota\Core\Router.php(111): Core\Controller->__call('index', Array)
+#3 C:\xampp\htdocs\Nota\public\index.php(59): Core\Router->dispatch('news')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\Nota\App\Controllers\News.php' on line 24
