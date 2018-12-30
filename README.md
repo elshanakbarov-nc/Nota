@@ -12,7 +12,7 @@ Feel free to **contribute** to the source code in order to make project as ideal
 ### Requirements
   
   * PHP 7.1.3 or Higher
-  * PDO. MySQL,SQLite or other RDMBS
+  * PDO. MySQL,SQLite or other RDBMS
   * Basic OOP Knowledge
 
 ### Libraries 
